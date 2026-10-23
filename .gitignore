@@ -1,0 +1,20 @@
+
+# Ignore everything by default
+*
+
+# Keep Git configuration
+!.gitignore
+
+# Keep selected parent folders and files
+!src/
+!src/**
+!bin/
+!bin/**
+!config
+!HEAD
+
+# Exclude generated and system files
+*.class
+.DS_Store
+
+
